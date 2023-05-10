@@ -76,26 +76,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-        <script>
-            /* let a;
-             let date;
-             let time;
-             const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-             setInterval(() => {
-                 a = new Date(); 
-                 date = a.toLocaleDateString(undefined, options);
-                 time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
-                 document.getElementById('time').innerHTML = time + "<br>on " + date;
-             }, 1000);  */
-             const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-              setInterval(() => {
-                dt = new Date();
-                date = dt.toLocaleDateString(undefined,options);
-                time = dt.getHours() + ':' + dt.getMinutes() + ':' + dt.getSeconds();
-                document.getElementById('time').innerHTML = time + " on " + date ;
-              }, 10);
-             
-         </script>
+    <script>
+        /* let a;
+         let date;
+         let time;
+         const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+         setInterval(() => {
+             a = new Date(); 
+             date = a.toLocaleDateString(undefined, options);
+             time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+             document.getElementById('time').innerHTML = time + "<br>on " + date;
+         }, 1000);  */
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        setInterval(() => {
+            dt = new Date();
+            date = dt.toLocaleDateString(undefined, options);
+            time = dt.getHours() + ':' + dt.getMinutes() + ':' + dt.getSeconds();
+            document.getElementById('time').innerHTML = time + " on " + date;
+        }, 10);
+
+    </script>
 </body>
 
 </html>
